@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Hello World
 subtitle: ''
-description: ''
+description: 'work hard, play hard'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Ryan
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -102,4 +102,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/ryanff/ryanff.github.io.git'
+  branch: 'main'
